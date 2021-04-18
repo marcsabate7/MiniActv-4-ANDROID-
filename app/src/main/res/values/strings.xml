@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">ManejoServicios</string>
+    <string name="iniserv">Servicio Iniciado</string>
+    <string name="creaserv">Servicio Creado</string>
+    <string name="finaserv">Servicio Finalizado</string>
+    <string name="inicioserv2">Servicio Canción Iniciado</string>
+    <string name="crearserv2">Servicio Canción Creado</string>
+    <string name="finalserv2">Servicio Canción Finalizado</string>
+
+</resources>

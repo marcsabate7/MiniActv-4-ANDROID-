@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:backgroundTint="#00FFFFFF"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:padding="20dp"
+		android:text="Utilización de Servicios"
+		android:textSize="20sp" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/btnInicio"
+			style="@android:style/Widget.DeviceDefault.Button"
+			android:layout_width="207dp"
+			android:layout_height="wrap_content"
+			android:backgroundTint="#92E854"
+			android:backgroundTintMode="src_in"
+			android:shadowColor="#FFFFFF"
+			android:soundEffectsEnabled="true"
+			android:text="Inicio"
+			android:textColor="#FFEB3B"
+			android:textColorHighlight="#2196F3"
+			android:textColorHint="#FFC107"
+			android:textColorLink="#FFC107"></Button>
+
+		<Button
+			android:id="@+id/song"
+			android:layout_width="179dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:soundEffectsEnabled="true"
+			android:text="Peaky Blinders" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/btnFin"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:backgroundTint="#D84315"
+			android:soundEffectsEnabled="true"
+			android:text="Detener"
+			android:textColor="#FFFFFF"></Button>
+	</LinearLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="270dp"
+		android:backgroundTint="#03FFFFFF"
+		android:soundEffectsEnabled="true">
+
+		<Button
+			android:id="@+id/btnSelAudio"
+			android:layout_width="152dp"
+			android:layout_height="71dp"
+			android:backgroundTint="#FFFFFF"
+			android:soundEffectsEnabled="true"
+			android:text="Seleccionar Audio"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.498"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.412" />
+
+	</android.support.constraint.ConstraintLayout>
+
+	<Button
+		android:id="@+id/RepCancion"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:soundEffectsEnabled="true"
+		android:text="REPRODUCIR 911" />
+
+</LinearLayout>
