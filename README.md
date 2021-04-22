@@ -1,2 +1,2 @@
 # ManejoServicio
-A first experience with Service and BroadcastReceiver components
+APARTAT C -------------->  https://github.com/marcsabate7/MiniActv-4-ANDROID-C
